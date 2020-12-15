@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/d12.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d12.in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d12_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d12_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d13.in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d13_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d14.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d14.in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d14.in2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d14_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AdventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdventOfCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/d11.py" beforeDir="false" afterPath="$PROJECT_DIR$/d11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d15.in1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d15_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d14_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d14_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +33,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201214_0002" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201215_0000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
@@ -54,28 +43,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.d14_1">
-    <configuration name="d11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.d15_1">
     <configuration name="d12_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,13 +128,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="d15_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d15_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d15_1" />
         <item itemvalue="Python.d14_1" />
         <item itemvalue="Python.d13_2" />
         <item itemvalue="Python.d13" />
         <item itemvalue="Python.d12_2" />
-        <item itemvalue="Python.d11" />
       </list>
     </recent_temporary>
   </component>
@@ -205,9 +194,9 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/d14_1.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/d15_1.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

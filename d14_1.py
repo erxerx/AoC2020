@@ -6,7 +6,6 @@ mem = {}
 for i in ll:
   op = i[0]
   val = i[1]
-  print(i, op, val)
   if op == 'mask':
     mask = val
     floatbits = []
@@ -22,9 +21,8 @@ for i in ll:
       kk = k
       for j in range(mask.count('X')):
         adr &= (~ 2 ** floatbits[j]) # reset bit
-        if kk % 2 : adr |= (2 ** floatbits[j]) # reset bit
+        if kk & 1 : adr |= (2 ** floatbits[j]) # reset bit
         adr |= or_mask
         kk = kk >> 1
       mem[adr] = (int(val))
-      print(k, adr)
 print(sum(mem.values()))
