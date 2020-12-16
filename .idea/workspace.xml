@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="">
+    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.15.1 fixup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d15_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d15_1.py" afterDir="false" />
     </list>
@@ -14,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
@@ -184,7 +185,19 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1608148356965</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="ver1.15 fast with dict">
+      <created>1608155315088</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1608155315088</updated>
+    </task>
+    <task id="LOCAL−00005" summary="ver1.15.1 fixup">
+      <created>1608155565698</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1608155565698</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +217,9 @@
     <MESSAGE value="ver1. works correctly but slow" />
     <MESSAGE value="ver1.5 wip with dict" />
     <MESSAGE value="ver1.6 wip with dict" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver1.6 wip with dict" />
+    <MESSAGE value="ver1.15 fast with dict" />
+    <MESSAGE value="ver1.15.1 fixup" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver1.15.1 fixup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,7 +231,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/d15_1.py</url>
-          <line>7</line>
+          <line>8</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>

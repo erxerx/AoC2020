@@ -1,4 +1,4 @@
-#mem = [0, 3, 6]
+# mem = [0, 3, 6]
 mem = [5,1,9,18,13,8,0]
 seen = {mem[i]: i for i in range(len(mem) - 1)}
 lastseen = len(mem) - 1  # at which turn was the last number previously seen
