@@ -178,7 +178,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1608065807321</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="ver1.6 wip with dict">
+      <created>1608148356965</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1608148356965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +203,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ver1. works correctly but slow" />
     <MESSAGE value="ver1.5 wip with dict" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver1.5 wip with dict" />
+    <MESSAGE value="ver1.6 wip with dict" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver1.6 wip with dict" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -209,13 +216,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/d15_1.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/d15_1.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="16" />
+          <line>7</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
