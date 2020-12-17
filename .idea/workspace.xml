@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.15.1 fixup">
-      <change afterPath="$PROJECT_DIR$/d16.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d16_1.py" afterDir="false" />
+    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d16.in" beforeDir="false" afterPath="$PROJECT_DIR$/d16.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d16_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d16_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +234,11 @@
           <url>file://$PROJECT_DIR$/d15_1.py</url>
           <line>7</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/d16_1.py</url>
+          <line>283</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
