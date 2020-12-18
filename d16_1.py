@@ -266,22 +266,37 @@ nearby = [[556,988,567,847,219,631,519,625,634,639,362,750,703,882,798,931,177,8
 alltickets = [my] + nearby
 allrules = [onerule for rule in rules for onerule in rule[1:3]]
 
-def isinrange (x,rangeslist):
+def isinrange (x):
     result = []
-    for onerange in rangeslist:
-        low = int(onerange[:onerange.index('-')])
-        high = int(onerange[onerange.index('-') + 1:])
-        result.append(low <= x and x <= high)
+    for rule in rules:
+        xl = int(rule[1][:rule[1].index('-')])
+        xh = int(rule[1][rule[1].index('-') + 1:])
+        yl = int(rule[2][:rule[2].index('-')])
+        yh = int(rule[2][rule[2].index('-') + 1:])
+        result.append((xl <= x and x <= xh) or (yl <= x and x <= yh))
     return result
 
-rate = 0
+errrate = 0
+allticketstests = [True] * 20
 for ticket in alltickets:
-    tests = [any(isinrange(ticket[i], allrules)) for i in range(20)]
-    if not all(tests):
-        rate += sum([0 if tests[col] else ticket[col] for col in range(20)])
+    legal = False
+    for i in range(20):
+        col = ticket[i]
+        colinrange = isinrange(col)
+        if any(colinrange):
+            legal = True
+            break
+    if not legal:
+        errrate += col
         continue
-    ww = [0 if tests[col] else ticket[col] for col in range(20)]
-    continue
+    tests = [any(isinrange(i)) for i in ticket]
+    if not all(tests):
+        errrate += sum([0 if tests[col] else ticket[col] for col in range(20)])
+        continue
+    allticketstests = [(allticketstests[col] and tests[col]) for col in range(20)]
+    print(allticketstests)
+
+for ticket in alltickets:
     for rule in rules:
         tt = [isinrange(ticket[i], allrules) for i in range(20)]
 
@@ -297,4 +312,4 @@ for ticket in alltickets:
                 valid += 1
         print(col, '{0:03}'.format(valid), '\t', end='')
         print()
-print(rate)
+print(errrate)
