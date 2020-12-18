@@ -277,39 +277,28 @@ def isinrange (x):
     return result
 
 errrate = 0
-allticketstests = [True] * 20
+allticketstests = [[True] * 20] * 20
 for ticket in alltickets:
-    legal = False
+    legal = True
     for i in range(20):
         col = ticket[i]
         colinrange = isinrange(col)
-        if any(colinrange):
-            legal = True
+        if not any(colinrange):
+            legal = False
             break
     if not legal:
         errrate += col
         continue
-    tests = [any(isinrange(i)) for i in ticket]
-    if not all(tests):
-        errrate += sum([0 if tests[col] else ticket[col] for col in range(20)])
-        continue
-    allticketstests = [(allticketstests[col] and tests[col]) for col in range(20)]
-    print(allticketstests)
-
-for ticket in alltickets:
-    for rule in rules:
-        tt = [isinrange(ticket[i], allrules) for i in range(20)]
-
-        xl = int(rule[1][:rule[1].index('-')])
-        xh = int(rule[1][rule[1].index('-') + 1:])
-        yl = int(rule[2][:rule[2].index('-')])
-        yh = int(rule[2][rule[2].index('-') + 1:])
-        print('{:18}'.format(rule[0]) , ' : ', [i for i in range(20)], end = '')
-        for col in range(20):
-            t = ticket[col]
-            valid = 0
-            if (xl <= t and t <= xh) or (yl <= t and t <= yh):
-                valid += 1
-        print(col, '{0:03}'.format(valid), '\t', end='')
-        print()
+    tests = [isinrange(i) for i in ticket]
+    allticketstests = [[a and b for a, b in zip(allticketstests[i], tests[i])] for i in range(20)]
+    #for i in range(20):
+    #    for j in range(20):
+    #        allticketstests[i][j] = (allticketstests[i][j] & tests[i][j])
+print(allticketstests)
+for i in range(20):
+    print(i, allticketstests[i].count(True), '\t: ', end='')
+    for j in range(20):
+        if allticketstests[i][j]:
+            print(j, '  ', end='')
+    print()
 print(errrate)
