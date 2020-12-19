@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/d16.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d17.in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d13.py" beforeDir="false" afterPath="$PROJECT_DIR$/d13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d16.in" beforeDir="false" afterPath="$PROJECT_DIR$/d16.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d16_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d16_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d17.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d17.py" beforeDir="false" afterPath="$PROJECT_DIR$/d17.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,7 @@
   </component>
   <component name="ProjectId" id="1lXp7sUU5KrpReRqf3vHDFGJYG5" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -37,7 +33,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201218_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201219_0003" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
@@ -242,13 +238,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/d17.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="79" />
+          <line>54</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/d17.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="82" />
+          <line>45</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/d17.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
