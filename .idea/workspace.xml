@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.17.3 part2 ok">
-      <change afterPath="$PROJECT_DIR$/d18_1.py" afterDir="false" />
+    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.18.1 wip">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d18_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d18_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201219_0007" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201219_0011" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608363566491</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ver1.18.1 wip">
+      <created>1608373803567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608373803567</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +252,8 @@
     <MESSAGE value="ver1.17.1.5 wip" />
     <MESSAGE value="ver1.17.2.0 part1 ok" />
     <MESSAGE value="ver1.17.3 part2 ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver1.17.3 part2 ok" />
+    <MESSAGE value="ver1.18.1 wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver1.18.1 wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -261,8 +270,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/d18_1.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="121" />
+          <line>12</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/d18_1.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
