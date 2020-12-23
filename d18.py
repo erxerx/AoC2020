@@ -61,7 +61,7 @@ def evalexp2(inexp):
   print('eval:', inexp)
   opstack = []
   argstack = []
-  result = 0
+  #result = 0
   while i < len(inexp) - 1:
     i += 1
     token = inexp[i]
@@ -100,7 +100,9 @@ def evalexp2(inexp):
         #print('return: ', argstack[0], ' -> ', argstack[0] * argstack[1])
         result = argstack.pop() * argstack.pop()
       argstack.append(result)
-  return argstack.pop()  #result  # argstack[0]
+  result = 1
+  for x in argstack: result *= x
+  return result  # argstack[0]
 
 for test in tests:
   res1 = evalexp1(test[0].split(' '))
@@ -116,10 +118,10 @@ for test in tests:
     print('2.NOK: was ', res2, ' expected ', test[2], '\t', end='')
   print()
 
-#summ1 = 0
-#summ2 = 0
-#for exp in exps:
-#  summ1 += evalexp1(exp)
-#  summ2 += evalexp2(exp)
-#print('part1:', summ1)
-#print('part2:', summ2)
+summ1 = 0
+summ2 = 0
+for exp in exps:
+  summ1 += evalexp1(exp)
+  summ2 += evalexp2(exp)
+print('part1:', summ1)
+print('part2:', summ2)
