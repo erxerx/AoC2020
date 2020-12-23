@@ -1,4 +1,4 @@
-with open('d19.in', 'r') as f:
+with open('d19.in2', 'r') as f:
   content = f.read()
 l = content.split('\n\n')
 rules = {int(x.split(': ')[0]):x.split(': ')[1].replace('\n', '') for x in l[0].split('\n')}
@@ -30,8 +30,8 @@ def matches(inexp, ruleidx):
 
 summ = 0
 for exp in exps:
-  print(exp)
+  #print(exp)
   if matches(exp, 0) == len(exp):
-    print(exp, 'matches')
+    #print(exp, 'matches')
     summ += 1
 print('part1:', summ)

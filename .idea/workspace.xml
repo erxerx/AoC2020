@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.18.3 part2 wip">
-      <change afterPath="$PROJECT_DIR$/d19.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d19.in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d19.in2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d19.in3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d19.py.bak" afterDir="false" />
+    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.19 part2 wip">
       <change afterPath="$PROJECT_DIR$/d19_1.2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d19_1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/d19_1.y" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d18_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d19.in2" beforeDir="false" afterPath="$PROJECT_DIR$/d19.in2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d19.in3" beforeDir="false" afterPath="$PROJECT_DIR$/d19.in3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d19_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d19_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201223_0005" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201223_0007" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
@@ -235,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608457053773</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ver1.19 part2 wip">
+      <created>1608740222416</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608740222416</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +264,8 @@
     <MESSAGE value="ver1.17.2.0 part1 ok" />
     <MESSAGE value="ver1.17.3 part2 ok" />
     <MESSAGE value="ver1.18.3 part2 wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver1.18.3 part2 wip" />
+    <MESSAGE value="ver1.19 part2 wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver1.19 part2 wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -283,8 +287,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/d19_1.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="148" />
+          <line>33</line>
+          <option name="timeStamp" value="149" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
