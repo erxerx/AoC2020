@@ -41,10 +41,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201226_0003" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201226_0007" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -263,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608958167861</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixed problems">
+      <created>1608959837540</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608959837540</updated>
+    </task>
+    <task id="LOCAL-00015" summary="block moove">
+      <created>1608960730131</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608960730131</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +307,9 @@
     <MESSAGE value="ver1.19 part2 ok" />
     <MESSAGE value="ver1.20 part1 wip" />
     <MESSAGE value="ver1.21 part1 wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver1.21 part1 wip" />
+    <MESSAGE value="fixed problems" />
+    <MESSAGE value="block moove" />
+    <option name="LAST_COMMIT_MESSAGE" value="block moove" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -320,13 +336,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/d20_1.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/d20_1.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="180" />
+          <line>53</line>
+          <option name="timeStamp" value="187" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
