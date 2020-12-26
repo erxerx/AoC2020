@@ -1,16 +1,8 @@
 from collections import defaultdict
 from itertools import permutations, product
 from math import sqrt
-
+# globals
 edges = defaultdict(list)
-
-with open('d20.in1', 'r') as f:
-    content = f.read()
-rec = content.split('\n\n')
-tiles = {int(x.split(':')[0][5:]): x.split('\n')[1:11] for x in rec}
-tile_len = 10
-glen = int(sqrt(len(tiles)))
-grid = [[(0, 0)] * glen] * glen
 
 
 def edge(tile_num, edge_num):
@@ -24,7 +16,7 @@ def edge(tile_num, edge_num):
     if edge_num == 7: return ''.join([tiles[tile_num][tile_len - x - 1][0] for x in range(tile_len)])
 
 
-def chk_grid():
+def ok_grid():
     return True
     # for y in range(glen - 1):
     #    for x in range(glen - 1):
@@ -33,7 +25,7 @@ def chk_grid():
 
 def solve_grid(available):
     global grid
-    if not chk_grid(): return False
+    if not ok_grid(): return False
     if len(available) == 0: return True
     try_tile = available.pop()
     print('try_tile', try_tile)
@@ -46,6 +38,14 @@ def solve_grid(available):
 
 
 if __name__ == '__main__':
+    with open('d20.in1', 'r') as f:
+        content = f.read()
+    rec = content.split('\n\n')
+    tiles = {int(x.split(':')[0][5:]): x.split('\n')[1:11] for x in rec}
+    tile_len = 10
+    glen = int(sqrt(len(tiles)))
+    grid = [[(0, 0)] * glen] * glen
+
     for tile in tiles.keys():
         for orientation in range(8):
             # print(edge(tile, orientation), tile, orientation)
