@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.21 part1 wip">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d20_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d20_1.py" afterDir="false" />
+    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.20 part1 cleanup">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608960730131</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ver1.20 part1 cleanup">
+      <created>1609003971845</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609003971845</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,7 +315,8 @@
     <MESSAGE value="ver1.21 part1 wip" />
     <MESSAGE value="fixed problems" />
     <MESSAGE value="block moove" />
-    <option name="LAST_COMMIT_MESSAGE" value="block moove" />
+    <MESSAGE value="ver1.20 part1 cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver1.20 part1 cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -333,11 +340,6 @@
           <url>file://$PROJECT_DIR$/d19_1.py</url>
           <line>33</line>
           <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/d20_1.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="187" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
