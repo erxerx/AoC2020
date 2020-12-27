@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.20 part1 cleanup">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ignore fix">
+      <change beforePath="$PROJECT_DIR$/.idea/AdventOfCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdventOfCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d20_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d20_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +43,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201226_0007" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201227_0002" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -283,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609003971845</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ignore fix">
+      <created>1609004100676</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609004100676</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,7 +301,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -316,7 +332,8 @@
     <MESSAGE value="fixed problems" />
     <MESSAGE value="block moove" />
     <MESSAGE value="ver1.20 part1 cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver1.20 part1 cleanup" />
+    <MESSAGE value="ignore fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -350,5 +367,11 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="available" language="Python" />
+        <watch expression="grid" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
