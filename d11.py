@@ -1,3 +1,4 @@
+from time import time
 with open('d11.in', 'r') as f:
   content = f.read()
 l = ['.' + x + '.' for x in content.split('\n')]
@@ -5,6 +6,8 @@ lenn=len(l[0])
 l = ['.' * lenn] + l + ['.' * lenn]
 n=l[::]
 l[0]=['A' * lenn]
+start = time()
+
 while l != n:
   l = n[::]
   occupied = 0
@@ -25,4 +28,5 @@ while l != n:
             if l[ny][nx] == '#': around += 1; break
       if l[y][x] == 'L' and around == 0: n[y] = n[y][:x] + '#' + n[y][x+1:]; occupied += 1
       if l[y][x] == '#' and around >  4: n[y] = n[y][:x] + 'L' + n[y][x + 1:]
-  print(''.join(n).count('#'), n)
+  print(''.join(n).count('#'))
+print(f"Time : {time() - start} seconds")

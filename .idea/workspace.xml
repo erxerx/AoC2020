@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="wip">
-      <change afterPath="$PROJECT_DIR$/d20.in2" afterDir="false" />
+    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.120 part1 ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d11.py" beforeDir="false" afterPath="$PROJECT_DIR$/d11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d20_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d20_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201228_0003" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201228_0005" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -54,7 +54,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.d20_1">
-    <configuration name="d17_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="d11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d17_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,10 +162,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.d20_1" />
+        <item itemvalue="Python.d11" />
         <item itemvalue="Python.d19_1" />
         <item itemvalue="Python.d19" />
         <item itemvalue="Python.d18" />
-        <item itemvalue="Python.d17_2" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609090843782</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ver1.120 part1 ok">
+      <created>1609153289319</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609153289319</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,14 +347,15 @@
     <MESSAGE value="ver1.20 part1 cleanup" />
     <MESSAGE value="ignore fix" />
     <MESSAGE value="wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+    <MESSAGE value="ver1.120 part1 ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver1.120 part1 ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/d11.py</url>
-          <line>22</line>
+          <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -364,6 +372,16 @@
           <url>file://$PROJECT_DIR$/d19_1.py</url>
           <line>33</line>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/d20_1.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/d20_1.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="163" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
