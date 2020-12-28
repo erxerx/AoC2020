@@ -27,6 +27,6 @@ while l != n:
             if l[ny][nx] == 'L': break
             if l[ny][nx] == '#': around += 1; break
       if l[y][x] == 'L' and around == 0: n[y] = n[y][:x] + '#' + n[y][x+1:]; occupied += 1
-      if l[y][x] == '#' and around >  4: n[y] = n[y][:x] + 'L' + n[y][x + 1:]
+      if l[y][x] == '#' and around >  4: n[y] = n[y][:x] + 'L' + n[y][x+1:]
   print(''.join(n).count('#'))
 print(f"Time : {time() - start} seconds")
