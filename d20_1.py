@@ -126,4 +126,5 @@ if __name__ == '__main__':
         if xx == (tile_len-2)*glen:
             xx = 0
             yy += tile_len-2
-    print(image)
+    for line in image:
+        print(line)
