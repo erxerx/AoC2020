@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.20 part2 ok">
-      <change afterPath="$PROJECT_DIR$/d21.in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d21.py" afterDir="false" />
+    <list default="true" id="83633140-d7e3-434b-bec4-fc400d59496d" name="Default Changelist" comment="ver1.21 part1 wip">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d20_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d20_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d21.py" beforeDir="false" afterPath="$PROJECT_DIR$/d21.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20201229_0009" />
+    <property name="com.google.cloudcode.ide_session_index" value="20201230_0000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -321,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609226198398</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ver1.21 part1 wip">
+      <created>1609277708453</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609277708453</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -366,7 +372,6 @@
     <MESSAGE value="ver1.19 part2 wip" />
     <MESSAGE value="ver1.19 part2 ok" />
     <MESSAGE value="ver1.20 part1 wip" />
-    <MESSAGE value="ver1.21 part1 wip" />
     <MESSAGE value="fixed problems" />
     <MESSAGE value="block moove" />
     <MESSAGE value="ver1.20 part1 cleanup" />
@@ -375,7 +380,8 @@
     <MESSAGE value="ver1.120 part1 ok" />
     <MESSAGE value="ver1.20 part2 wip. image in file to reuse existing tile code to rotate" />
     <MESSAGE value="ver1.20 part2 ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver1.20 part2 ok" />
+    <MESSAGE value="ver1.21 part1 wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver1.21 part1 wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,13 +408,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/d21.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/d21.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="154" />
+          <line>6</line>
+          <option name="timeStamp" value="156" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -421,7 +422,6 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="contains" language="Python" />
         <watch expression="a2i" language="Python" />
         <watch expression="i2a" language="Python" />
       </configuration>
