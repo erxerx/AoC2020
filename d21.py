@@ -3,17 +3,17 @@ def solve_contains(a, i):
     if a:
         for food in foods:
             if a in food[1].split(', ') and not i in food[0].split(' '):
-                    return False
+                return False
+    i2a[i] = a
+    a2i[a] = i
     for allergen in allergens:
         if allergen in a2i: continue
         for ingredient in ingredients:
             if ingredient in i2a: continue
-            i2a[ingredient] = allergen
-            a2i[allergen] = ingredient
             if len(a2i) == len(allergens): return True
-            if solve_contains(start_pos + 1): return True
-            i2a.pop(a2i[allergen])
-            a2i.pop(allergen)
+            if solve_contains(allergen, ingredient): return True
+    i2a.pop(a2i[allergen])
+    a2i.pop(allergen)
     return False  # dead end, backtrack
 
 
