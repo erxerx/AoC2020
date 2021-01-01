@@ -6,18 +6,18 @@ def solve_contains(a, i):
                 return False
     i2a[i] = a
     a2i[a] = i
+    if len(a2i) == len(allergens) + 1: return True
     for allergen in allergens:
         if allergen in a2i: continue
         for ingredient in ingredients:
             if ingredient in i2a: continue
-            if len(a2i) == len(allergens): return True
             if solve_contains(allergen, ingredient): return True
     i2a.pop(a2i[allergen])
     a2i.pop(allergen)
     return False  # dead end, backtrack
 
 
-with open('d21.in1', 'r') as f:
+with open('d21.in', 'r') as f:
     content = f.read()
 l = content.split('\n')
 foods = [x.replace('\n', '').split(' (contains ') for x in l]
@@ -28,16 +28,16 @@ a2i = {}
 contains = {}
 # let's populate these by processing foods :)
 for food in foods:
-    # print(food)
     ingredients.update(food[0].split(' '))
     allergens.update(food[1].split(', '))
 print(ingredients, '\n', allergens)
 print(solve_contains('',''))
+nonallergenic = 0
+for food in foods:
+    for i in food[0].split(' '):
+        if not i in i2a: nonallergenic += 1
+#part1
+print(nonallergenic)
 print(a2i)
-# rules = [[i[0], i[1].split(', ')] for i in ll]
-# rules = {i[0]:i[1].split(', ') for i in ll}
-# rule = [ i[0], [ x.lstrip(' ')[:x.index(' ')], x[x.index(' ') + 1::] for x in i[1].split(',') ] for i in ll ]
-# rules = [[[line[0], [x.lstrip(' ')[:x.index(' '):], x.lstrip(' ')[x.index(' ') + 1::]]] for x in line[1].split(',')] for line in ll]
-# print(howmanywithinside('shiny gold'))
-
-# print(many_contain('shiny gold bag'))
+print(sorted(a2i))
+#part2: dhfng,pgblcd,xhkdc,ghlzj,dstct,nqbnmzx,ntggc,znrzgs
