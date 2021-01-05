@@ -1,5 +1,6 @@
 # from itertools import cycle
-cups = list('157623984')
+cups = list('389125467')
+cups.extend([str(i + 1) for i in range(len(cups),1000000)])
 
 def read_cup(ii):
     return cups[ii % len(cups)]
@@ -30,7 +31,10 @@ for turn in range(100):
             write_cup(turn + 4 + i, pickup[2])
             pickup_add = 3
             # rest = rest + read_char(cups, turn + 4 + i)
-print(cups)
-start = cups.index('1')
-for i in range(len(cups) - 1):
-    print(read_cup(start + 1 + i), end='')
+# print(cups)
+# for i in range(len(cups) - 1):
+#     print(read_cup(start + 1 + i), end='')
+#
+c1 = read_cup(cups.index('1') + 1)
+c2 = read_cup(cups.index('1') + 2)
+print(int(c1)*int(c2))
