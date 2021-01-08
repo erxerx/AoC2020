@@ -1,6 +1,8 @@
-# from itertools import cycle
+from time import time
 cups = list('389125467')
-cups.extend([str(i + 1) for i in range(len(cups),1000000)])
+# cups = list('58427369')
+# cups.extend([str(i + 1) for i in range(len(cups),1000000)])
+
 
 def read_cup(ii):
     return cups[ii % len(cups)]
@@ -10,6 +12,7 @@ def write_cup(ii, val):
     cups[ii % len(cups)] = val
 
 
+start = time()
 for turn in range(100):
     current = read_cup(turn)
     pickup = read_cup(turn + 1) + read_cup(turn + 2) + read_cup(turn + 3)
@@ -31,10 +34,11 @@ for turn in range(100):
             write_cup(turn + 4 + i, pickup[2])
             pickup_add = 3
             # rest = rest + read_char(cups, turn + 4 + i)
-# print(cups)
+print(f"Time : {time() - start} seconds")
+print(cups)
 # for i in range(len(cups) - 1):
 #     print(read_cup(start + 1 + i), end='')
-#
+# part1 ['9', '1', '6', '7', '3', '8', '4', '5', '2']
 c1 = read_cup(cups.index('1') + 1)
 c2 = read_cup(cups.index('1') + 2)
-print(int(c1)*int(c2))
+print(c1, c2, int(c1)*int(c2))
