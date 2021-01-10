@@ -16,7 +16,7 @@ for i in range(10, 1000001):  # add to end up to x
     add_cup(int(i))
 next_cup[last_inserted] = 1
 print(f"List created : {time() - start} seconds")
-# List created : 0.19614648818969727 seconds
+# List created : 0.1917097568511963 seconds
 current = 1
 for turn in range(10000000):
     current_next = next_cup[current]
@@ -40,4 +40,4 @@ print(next_cup[1], next_cup[next_cup[1]], next_cup[1] * next_cup[next_cup[1]])
 # part2: 294528 377070 111057672960
 print(f"\nTime : {time() - start} seconds")
 #
-# Time : 9.807323455810547 seconds
+# Time : 9.429563999176025 seconds
