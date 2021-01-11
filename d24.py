@@ -18,33 +18,22 @@ for route in routes:
     blacks += (2 * h_grid[(r, g, b)] - 1)  # to convert 0 or 1 to -1 or +1
 # print(blacks)
 # part1: 282
-# rl, gl, bl = 0, 0, 0  # reset to middle tile
-# rh, gh, bh = 0, 0, 0  # reset to middle tile
-h_state = set()
-for i in h_grid:  # get only black tiles and get extremes
-    if i: h_state.add(i)
-#         if rl > i[0]: rl = i[0]
-#         if gl > i[1]: gl = i[1]
-#         if bl > i[2]: bl = i[2]
-#         if rh < i[0]: rh = i[0]
-#         if gh < i[1]: gh = i[1]
-#         if bh < i[2]: bh = i[2]
-# # print(h_state)
-n_state = h_state
+n_state = set()
+for i in h_grid:
+    if i: n_state.add(i)
 for day in range(5):
     h_state = n_state
-    print(len(h_state), h_state)
     n_state = set()
     blacks = 0
+    print(len(h_state), h_state)
     for current in h_state:
-        for move in h_move[1:]:
+        for move in h_move:
             nearby = 0
-            lookat = tuple(map(operator.add, current, move))
-            if lookat in n_state: break
+            look = tuple(map(operator.add, current, move))
+            if look in n_state: continue
             for tile in h_state:
-                if tuple(map(operator.sub, tile, lookat)) in h_move[1:]: nearby += 1
-            # print((rr,gg,bb), nearby)
-            if ((lookat in h_state) and (0 < nearby) and (nearby < 3)) or \
-                    ((not lookat in h_state) and nearby == 2):
-                n_state.add(lookat)
+                if tuple(map(operator.sub, tile, look)) in h_move[1:]: nearby += 1
+            if ((look in h_state) and (0 < nearby) and (nearby < 3)) or \
+                    ((look not in h_state) and nearby == 2):
+                n_state.add(look)
                 blacks += 1
