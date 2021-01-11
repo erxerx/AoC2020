@@ -14,6 +14,5 @@ for route in routes:
     if (r, g, b) in h_grid: h_grid[(r, g, b)] = 1 - h_grid[(r, g, b)]
     else: h_grid[(r, g, b)] = 1
     blacks += (2 * h_grid[(r, g, b)] - 1)  # to convert 0 or 1 to -1 or +1
-    print(route, r, g, b, blacks)
-    # ...
-    # 363613615161 -2 -3 5 282
+print(blacks)
+# part1: 282
